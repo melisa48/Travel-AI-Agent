@@ -1,0 +1,440 @@
+{
+  "destinations": {
+    "paris": {
+      "name": "Paris, France",
+      "description": "The City of Light, known for the Eiffel Tower, Louvre, and exquisite cuisine.",
+      "best_seasons": [
+        "Spring",
+        "Fall"
+      ],
+      "average_daily_cost": 150,
+      "language": "French",
+      "currency": "Euro (\u20ac)",
+      "timezone": "Central European Time (GMT+1)"
+    },
+    "tokyo": {
+      "name": "Tokyo, Japan",
+      "description": "Ultra-modern metropolis with ancient temples and traditions.",
+      "best_seasons": [
+        "Spring",
+        "Fall"
+      ],
+      "average_daily_cost": 120,
+      "language": "Japanese",
+      "currency": "Japanese Yen (\u00a5)",
+      "timezone": "Japan Standard Time (GMT+9)"
+    },
+    "new york": {
+      "name": "New York City, USA",
+      "description": "The Big Apple, famous for Times Square, Central Park, and Broadway.",
+      "best_seasons": [
+        "Spring",
+        "Fall"
+      ],
+      "average_daily_cost": 200,
+      "language": "English",
+      "currency": "US Dollar ($)",
+      "timezone": "Eastern Time (GMT-5)"
+    },
+    "bali": {
+      "name": "Bali, Indonesia",
+      "description": "Island paradise with beaches, temples, and vibrant culture.",
+      "best_seasons": [
+        "Dry season (April-October)"
+      ],
+      "average_daily_cost": 60,
+      "language": "Indonesian, Balinese",
+      "currency": "Indonesian Rupiah (Rp)",
+      "timezone": "Central Indonesia Time (GMT+8)"
+    },
+    "rome": {
+      "name": "Rome, Italy",
+      "description": "The Eternal City, home to the Colosseum, Vatican, and incredible cuisine.",
+      "best_seasons": [
+        "Spring",
+        "Fall"
+      ],
+      "average_daily_cost": 130,
+      "language": "Italian",
+      "currency": "Euro (\u20ac)",
+      "timezone": "Central European Time (GMT+1)"
+    }
+  },
+  "hotels": {
+    "paris": [
+      {
+        "name": "Grand Paris Hotel",
+        "stars": 5,
+        "price_range": "\u20ac\u20ac\u20ac\u20ac",
+        "location": "City Center"
+      },
+      {
+        "name": "Montmartre Boutique",
+        "stars": 3,
+        "price_range": "\u20ac\u20ac",
+        "location": "Montmartre"
+      },
+      {
+        "name": "Seine River Inn",
+        "stars": 4,
+        "price_range": "\u20ac\u20ac\u20ac",
+        "location": "Riverfront"
+      }
+    ],
+    "tokyo": [
+      {
+        "name": "Tokyo Luxury Tower",
+        "stars": 5,
+        "price_range": "\u20ac\u20ac\u20ac\u20ac",
+        "location": "Shinjuku"
+      },
+      {
+        "name": "Asakusa Ryokan",
+        "stars": 3,
+        "price_range": "\u20ac\u20ac",
+        "location": "Asakusa"
+      },
+      {
+        "name": "Shibuya Modern Hotel",
+        "stars": 4,
+        "price_range": "\u20ac\u20ac\u20ac",
+        "location": "Shibuya"
+      }
+    ],
+    "new york": [
+      {
+        "name": "Manhattan Grand",
+        "stars": 5,
+        "price_range": "\u20ac\u20ac\u20ac\u20ac",
+        "location": "Midtown"
+      },
+      {
+        "name": "Brooklyn Heights Inn",
+        "stars": 3,
+        "price_range": "\u20ac\u20ac",
+        "location": "Brooklyn"
+      },
+      {
+        "name": "Central Park View",
+        "stars": 4,
+        "price_range": "\u20ac\u20ac\u20ac",
+        "location": "Upper East Side"
+      }
+    ],
+    "bali": [
+      {
+        "name": "Ubud Jungle Resort",
+        "stars": 5,
+        "price_range": "\u20ac\u20ac\u20ac",
+        "location": "Ubud"
+      },
+      {
+        "name": "Kuta Beach Bungalows",
+        "stars": 3,
+        "price_range": "\u20ac",
+        "location": "Kuta"
+      },
+      {
+        "name": "Seminyak Luxury Villas",
+        "stars": 4,
+        "price_range": "\u20ac\u20ac",
+        "location": "Seminyak"
+      }
+    ],
+    "rome": [
+      {
+        "name": "Roman Emperor Palace",
+        "stars": 5,
+        "price_range": "\u20ac\u20ac\u20ac\u20ac",
+        "location": "Historic Center"
+      },
+      {
+        "name": "Trastevere Guesthouse",
+        "stars": 3,
+        "price_range": "\u20ac\u20ac",
+        "location": "Trastevere"
+      },
+      {
+        "name": "Vatican View Hotel",
+        "stars": 4,
+        "price_range": "\u20ac\u20ac\u20ac",
+        "location": "Vatican Area"
+      }
+    ]
+  },
+  "activities": {
+    "paris": [
+      {
+        "name": "Eiffel Tower Visit",
+        "category": "Sightseeing",
+        "duration_hours": 3,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Louvre Museum Tour",
+        "category": "Cultural",
+        "duration_hours": 4,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Seine River Cruise",
+        "category": "Leisure",
+        "duration_hours": 1.5,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Montmartre Walking Tour",
+        "category": "Sightseeing",
+        "duration_hours": 2,
+        "price_range": "\u20ac"
+      },
+      {
+        "name": "French Cooking Class",
+        "category": "Culinary",
+        "duration_hours": 3,
+        "price_range": "\u20ac\u20ac\u20ac"
+      }
+    ],
+    "tokyo": [
+      {
+        "name": "Tokyo Skytree",
+        "category": "Sightseeing",
+        "duration_hours": 2,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Meiji Shrine Visit",
+        "category": "Cultural",
+        "duration_hours": 1.5,
+        "price_range": "\u20ac"
+      },
+      {
+        "name": "Shibuya Crossing Experience",
+        "category": "Sightseeing",
+        "duration_hours": 1,
+        "price_range": "Free"
+      },
+      {
+        "name": "Sushi Making Class",
+        "category": "Culinary",
+        "duration_hours": 3,
+        "price_range": "\u20ac\u20ac\u20ac"
+      },
+      {
+        "name": "Robot Restaurant Show",
+        "category": "Entertainment",
+        "duration_hours": 2,
+        "price_range": "\u20ac\u20ac\u20ac"
+      }
+    ],
+    "new york": [
+      {
+        "name": "Statue of Liberty Ferry",
+        "category": "Sightseeing",
+        "duration_hours": 4,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Broadway Show",
+        "category": "Entertainment",
+        "duration_hours": 3,
+        "price_range": "\u20ac\u20ac\u20ac"
+      },
+      {
+        "name": "Central Park Bike Tour",
+        "category": "Leisure",
+        "duration_hours": 2,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Metropolitan Museum",
+        "category": "Cultural",
+        "duration_hours": 3,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Brooklyn Food Tour",
+        "category": "Culinary",
+        "duration_hours": 4,
+        "price_range": "\u20ac\u20ac"
+      }
+    ],
+    "bali": [
+      {
+        "name": "Ubud Monkey Forest",
+        "category": "Nature",
+        "duration_hours": 2,
+        "price_range": "\u20ac"
+      },
+      {
+        "name": "Uluwatu Temple Sunset",
+        "category": "Cultural",
+        "duration_hours": 3,
+        "price_range": "\u20ac"
+      },
+      {
+        "name": "Bali Surf Lesson",
+        "category": "Adventure",
+        "duration_hours": 2,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Tegalalang Rice Terraces",
+        "category": "Sightseeing",
+        "duration_hours": 2,
+        "price_range": "\u20ac"
+      },
+      {
+        "name": "Balinese Cooking Class",
+        "category": "Culinary",
+        "duration_hours": 4,
+        "price_range": "\u20ac\u20ac"
+      }
+    ],
+    "rome": [
+      {
+        "name": "Colosseum Tour",
+        "category": "Cultural",
+        "duration_hours": 3,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Vatican Museums & Sistine Chapel",
+        "category": "Cultural",
+        "duration_hours": 4,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Pasta Making Class",
+        "category": "Culinary",
+        "duration_hours": 3,
+        "price_range": "\u20ac\u20ac\u20ac"
+      },
+      {
+        "name": "Trastevere Food Tour",
+        "category": "Culinary",
+        "duration_hours": 3,
+        "price_range": "\u20ac\u20ac"
+      },
+      {
+        "name": "Ancient Rome Walking Tour",
+        "category": "Cultural",
+        "duration_hours": 2,
+        "price_range": "\u20ac"
+      }
+    ]
+  },
+  "saved_itineraries": {
+    "TokyoTrip2025": {
+      "destination": "Tokyo, Japan",
+      "start_date": "2025-03-05",
+      "end_date": "2025-03-08",
+      "hotel": {
+        "name": "Asakusa Ryokan",
+        "stars": 3,
+        "price_range": "\u20ac\u20ac",
+        "location": "Asakusa"
+      },
+      "daily_itinerary": [
+        {
+          "date": "2025-03-05",
+          "day_number": 1,
+          "activities": [
+            {
+              "name": "Tokyo Skytree",
+              "category": "Sightseeing",
+              "duration_hours": 2,
+              "price_range": "\u20ac\u20ac"
+            },
+            {
+              "name": "Meiji Shrine Visit",
+              "category": "Cultural",
+              "duration_hours": 1.5,
+              "price_range": "\u20ac"
+            },
+            {
+              "name": "Shibuya Crossing Experience",
+              "category": "Sightseeing",
+              "duration_hours": 1,
+              "price_range": "Free"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-06",
+          "day_number": 2,
+          "activities": [
+            {
+              "name": "Tokyo Skytree",
+              "category": "Sightseeing",
+              "duration_hours": 2,
+              "price_range": "\u20ac\u20ac"
+            },
+            {
+              "name": "Meiji Shrine Visit",
+              "category": "Cultural",
+              "duration_hours": 1.5,
+              "price_range": "\u20ac"
+            },
+            {
+              "name": "Shibuya Crossing Experience",
+              "category": "Sightseeing",
+              "duration_hours": 1,
+              "price_range": "Free"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-07",
+          "day_number": 3,
+          "activities": [
+            {
+              "name": "Meiji Shrine Visit",
+              "category": "Cultural",
+              "duration_hours": 1.5,
+              "price_range": "\u20ac"
+            },
+            {
+              "name": "Tokyo Skytree",
+              "category": "Sightseeing",
+              "duration_hours": 2,
+              "price_range": "\u20ac\u20ac"
+            },
+            {
+              "name": "Shibuya Crossing Experience",
+              "category": "Sightseeing",
+              "duration_hours": 1,
+              "price_range": "Free"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-08",
+          "day_number": 4,
+          "activities": [
+            {
+              "name": "Meiji Shrine Visit",
+              "category": "Cultural",
+              "duration_hours": 1.5,
+              "price_range": "\u20ac"
+            },
+            {
+              "name": "Shibuya Crossing Experience",
+              "category": "Sightseeing",
+              "duration_hours": 1,
+              "price_range": "Free"
+            },
+            {
+              "name": "Tokyo Skytree",
+              "category": "Sightseeing",
+              "duration_hours": 2,
+              "price_range": "\u20ac\u20ac"
+            }
+          ]
+        }
+      ],
+      "estimated_cost": 580.8,
+      "currency": "Japanese Yen (\u00a5)"
+    }
+  }
+}
